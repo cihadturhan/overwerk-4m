@@ -116,7 +116,7 @@ function initGL() {
 
     }
 
-    var _s = settings.HIGH;
+    var _s = settings.MEDIUM;
     
     var width = _s.width, 
         height = _s.height,
