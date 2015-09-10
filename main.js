@@ -25,7 +25,7 @@ function initAL() {
     //audio.src = "audio/Mitis - Endeavors.mp3";
     audio.src = "audio/feel_better.mp3";
     audio.loop = 1;
-    audio.pause();
+    //audio.pause();
     
     context = new (window.AudioContext || window.webkitAudioContext)()
     analyser = context.createAnalyser();
