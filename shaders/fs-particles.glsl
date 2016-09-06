@@ -35,7 +35,7 @@ float atan2(in float y, in float x)
 void main() {
 
     vec3 res =  texture2D( map, vUv ).xyz;
-    float opacity = clamp(1.0/(res.x*res.x + res.z*res.z), 0.1, 1.0 );
+    float opacity = clamp(1.0/(res.x*res.x + res.z*res.z), 0.25, 1.0 );
     float angle = atan2(res.z, res.x);
     angle = ((angle + PI))/PI2;
 	vec3 hsv = vec3(angle, saturation, 1.0);
