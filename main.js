@@ -138,7 +138,7 @@ function initGL() {
     var width = _s.width,
         height = _s.height;
     var pointSize = _s.pointSize;
-    var totalSize = width * height;
+    totalSize = width * height;
 
     if (!renderer.context.getExtension('OES_texture_float')) {
         alert('OES_texture_float is not :(');
