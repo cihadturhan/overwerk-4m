@@ -298,6 +298,8 @@ function render() {
 
         amplitude /= 256 * analyserDataArray.length / 2;
         guiControls.amplitude = amplitude;
+    }else{
+        guiControls.amplitude = Math.pow(Math.sin(timer*2),2)
     }
 
     timer += 0.01;
