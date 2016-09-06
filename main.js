@@ -109,22 +109,22 @@ function initGL() {
         MEDIUM: {
             width: 1024,
             height: 1024,
-            pointSize: 2
+            pointSize: 1
         },
         LOW: {
             width: 512,
             height: 512,
-            pointSize: 3
+            pointSize: 2
         },
         LOWEST: {
             width: 256,
             height: 256,
-            pointSize: 4
+            pointSize: 2
         },
         MINIMAL: {
-            width: 4,
-            height: 4,
-            pointSize: 10
+            width: 64,
+            height: 64,
+            pointSize: 4
         }
 
     }
